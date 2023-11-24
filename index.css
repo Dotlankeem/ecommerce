@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 23%;
+    height: 350px;
+    margin:0 auto;
+    float: left;
+    padding: 15px;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid transparent;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+    /* display: grid;
+    grid-template-columns:auto 1fr 1fr 1fr;
+    flex-direction: row; */
+    gap: 4px;
+}
+.card img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.btn{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: 600;
+    animation: wave 5s infinite;
+}
+@keyframes wave{
+    0% {color: blue;}
+    20%{color: red; }
+    40%{color: pink;}
+    60%{color: black;}
+    80%{color: grey; }
+    100%{color: purple;}
+}
+.price{
+    font-size: 30px;
+}
+.desc{
+    font-size: 20px;
+}
+.del{
+    font-size: 15px;
+    color: goldenrod;
+}
